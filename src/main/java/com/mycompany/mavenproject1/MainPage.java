@@ -24,4 +24,9 @@ public class MainPage {
         return new Status_Code(driver);
     }
     
+    public Editor OpenEditor(){
+        driver.findElement(By.linkText("WYSIWYG Editor")).click();
+        return new Editor(driver);
+    }
+    
 }

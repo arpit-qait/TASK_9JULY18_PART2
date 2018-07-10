@@ -6,7 +6,7 @@
       <class name="NewEmptyTestNGTest">
         <methods>
           <include name="setUpClass"/>
-          <include name="Status_Code"/>
+          <include name="Editor_Testing"/>
         </methods>
       </class> <!-- NewEmptyTestNGTest -->
     </classes>

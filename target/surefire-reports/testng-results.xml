@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="NewEmptyTestNGTest" duration-ms="2208" started-at="2018-07-10T10:27:57Z" finished-at="2018-07-10T10:28:00Z">
+  <suite name="NewEmptyTestNGTest" duration-ms="3420" started-at="2018-07-10T12:32:05Z" finished-at="2018-07-10T12:32:08Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="2208" started-at="2018-07-10T10:27:57Z" finished-at="2018-07-10T10:28:00Z">
+    <test name="Command line test" duration-ms="3420" started-at="2018-07-10T12:32:05Z" finished-at="2018-07-10T12:32:08Z">
       <class name="NewEmptyTestNGTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:NewEmptyTestNGTest@1a407d53]" name="setUpClass" is-config="true" duration-ms="1904" started-at="2018-07-10T10:27:57Z" finished-at="2018-07-10T10:27:59Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:NewEmptyTestNGTest@1a407d53]" name="setUpClass" is-config="true" duration-ms="2550" started-at="2018-07-10T12:32:05Z" finished-at="2018-07-10T12:32:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="Status_Code()[pri:0, instance:NewEmptyTestNGTest@1a407d53]" name="Status_Code" duration-ms="287" started-at="2018-07-10T10:27:59Z" finished-at="2018-07-10T10:28:00Z">
+        <test-method status="PASS" signature="Editor_Testing()[pri:0, instance:NewEmptyTestNGTest@1a407d53]" name="Editor_Testing" duration-ms="848" started-at="2018-07-10T12:32:07Z" finished-at="2018-07-10T12:32:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Status_Code -->
+        </test-method> <!-- Editor_Testing -->
       </class> <!-- NewEmptyTestNGTest -->
     </test> <!-- Command line test -->
   </suite> <!-- NewEmptyTestNGTest -->

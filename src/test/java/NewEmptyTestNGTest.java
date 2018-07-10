@@ -28,6 +28,7 @@ public class NewEmptyTestNGTest {
     PAGE_CONGRATS pagecongrats;
     Status_Code sts_cd;
     Status_Code404 sts_cd404;
+    Editor editor;
     public NewEmptyTestNGTest() {
     }
 
@@ -50,12 +51,22 @@ public class NewEmptyTestNGTest {
         pagecongrats = page1.CLICKBASICAUTH();
         
     }
-    @Test
+//    @Test
     public void Status_Code() throws IOException{
         sts_cd = mnpg.OpenStatusCode();
         sts_cd.CheckValidity();
         sts_cd404 = sts_cd.CLICK404();
         sts_cd404.CheckValidity();
+    }
+    
+    @Test
+    public void Editor_Testing(){
+        editor = mnpg.OpenEditor();
+        editor.Clear();
+        editor.SendText();
+        editor.AllTextSelect();
+        editor.ClickBoldButton();
+        editor.CheckBoldText();
     }
 
     
